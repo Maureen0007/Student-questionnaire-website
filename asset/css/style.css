@@ -44,12 +44,21 @@
         width: 500px;
         height: 400px;
         margin-left: 400px;
-        margin-top: 15%;
+        margin-top: 10%;
     }
-    .choice1{
-        background-color: red;
-        
-    }
+    
     .choice2{
         margin-top: 20px;
+    }
+    .buttn1{
+        width: 150px;
+        height: 40px;
+        border-radius: 20px;
+    }
+    .buttn1:hover{
+        background-color: blueviolet;
+    }
+    #btn2{
+      margin-top: 80px;
+
     }
