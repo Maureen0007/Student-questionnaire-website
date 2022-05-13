@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: playfair;
 }
     /* section1 */
     body{
@@ -10,21 +11,24 @@
         background-repeat: no-repeat;
     }
     .nameTag{
-        background-color: green;
+        background-color: pink;
         text-align: center;
         font-size: 80px;
         margin-left: 200px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 4px brown;
     }
-    .nameBox{
-        background-color: blue;
-        width: 700px;
+    #txtbox1{
+       width: 600px;
         height: 100px;
-        margin-left: 300px;
+        margin-left: 400px;
         border-radius: 30px;
+        font-size: 40px;
+        text-align: center;
     }
     
     #submit{
-        font-size: 25px;
+        font-size: 30px;
         margin-top: 30px;
         background-color: aqua;
         margin-left: 500px;
