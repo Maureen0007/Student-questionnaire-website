@@ -60,5 +60,23 @@
     }
     #btn2{
       margin-top: 80px;
+      width: 90px;
+      height: 30px;
+      background-color: burlywood;
+
+    }
+    #submit1{
+        margin-left: 350px;
+        margin-top: 60px;
+        width: 90px;
+        height: 30px;
+        background-color: burlywood;
+    }
+    #submit2{
+        margin-left: 500px;
+        width: 90px;
+        height: 30px;
+        background-color: burlywood;
+        color: black;
 
     }
