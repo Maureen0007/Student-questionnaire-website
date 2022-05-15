@@ -16,6 +16,7 @@ li{
     border-bottom: 2px solid gray;
     padding: 30px;
     text-decoration: none;
+    color: black;
     
 
 }
@@ -38,5 +39,37 @@ li{
     margin-left: 300px;
     background-color: aquamarine;
     border-radius: 30px;
+}
+#containersidebar{
+    display: flex;
+    height: 600px;
+    width: 1250px;
+
+}
+.start{
+    width: 500px;
+    height: 500px;
+    margin-left: 700px;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+.start h1{
+    color: white;
+    box-shadow: 2px 2px 4px black;
+    height: 300px;
+}
+#startbtn{
+    margin: 60px;
+    height: 50px;
+    width: 120px;
+    background-color: black;
+    border-radius: 10px;
+}
+#startbtn p{
+    font-weight: 500;
+}
+i{
+    color: maroon;
 }
 
