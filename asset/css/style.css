@@ -1,81 +1,32 @@
-*{
-    box-sizing: border-box;
-    font-family: playfair;
+body{
+    background-image: url("/asset/images/imagg2.jpg");
+    width: 1100px;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-    /* section1 */
-    body{
-        background-image: url("/asset/images/imagg2.jpg");
-        width: 1100px;
-        height: auto;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    .nameTag{
-        background-color: pink;
-        text-align: center;
-        font-size: 80px;
-        margin-left: 200px;
-        border-radius: 10px;
-        box-shadow: 3px 3px 4px brown;
-    }
-    #txtbox1{
-       width: 600px;
-        height: 100px;
-        margin-left: 400px;
-        border-radius: 30px;
-        font-size: 40px;
-        text-align: center;
-    }
+#sidebar{
+    width: 40%;
+    height: 100%;
+    /* background-color: rgb(119, 98, 105); */
+    position: fixed;
+}
+li{
+    font-size: 40px;
+    border-bottom: 2px solid gray;
+    padding: 30px;
     
-    #submit{
-        font-size: 30px;
-        margin-top: 30px;
-        background-color: aqua;
-        margin-left: 500px;
-        width: 350px;
-        height: 40px;
-        border-radius: 30px;
-    }
-    /* next1 */
-    .container2{
-        background-color: aquamarine;
-        text-align: center;
-        font-size: 40px;
-        width: 500px;
-        height: 400px;
-        margin-left: 400px;
-        margin-top: 10%;
-    }
-    
-    .choice2{
-        margin-top: 20px;
-    }
-    .buttn1{
-        width: 150px;
-        height: 40px;
-        border-radius: 20px;
-    }
-    .buttn1:hover{
-        background-color: blueviolet;
-    }
-    #btn2{
-      margin-top: 80px;
-      width: 90px;
-      height: 30px;
-      background-color: burlywood;
 
-    }
-    #submit1{
-        margin-left: 350px;
-        margin-top: 60px;
-        width: 90px;
-        height: 30px;
-        background-color: burlywood;
-    }
-    #submit2{
-        margin-left: 500px;
-        width: 90px;
-        height: 30px;
-        background-color: burlywood;
+}
+.tooglebtn{
+    position: absolute;
+    left: 90%;
+    margin-top: 80px;
+}
+.tooglebtn span{
+    width: 20px;
+    height: 6px;
+    display: block;
+    background-color: black;
 
-    }
+}
