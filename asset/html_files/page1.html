@@ -1,42 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,700;1,800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="asset/css/style.css" type="text/css">
-    <script src="https://kit.fontawesome.com/00e54f393f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="" type="text/css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Questionnaire</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quetionnaire trial</title>
 </head>
-<body> 
-   <div id="containersidebar">
-    <div id="sidebar">
-        <div class="tooglbtn">
-            <span></span>
-            <span></span>
-            <span></span>
+<body>
+    <div id="container-main">
+        <div class="quiz">
+            <h2>1. What is javascript?</h2>
+            <input type="radio" name="quiz1">A markup language.<br>
+            <input type="radio" name="quiz1">A web application<br>
+            <input type="radio" name="quiz1">A mobile application<br>
+            <input type="radio" name="quiz1" id="correct1">A proramming language<br>
+            <h2>2. What is the use of javascript in a website?</h2>
+            <input type="radio" name="quiz2">To design a site<br>
+            <input type="radio" name="quiz2">To build the structure<br>
+            <input type="radio" name="quiz2" id="correct2">To make the site responsive<br>
+            <input type="radio" name="quiz2">To style the site<br>
+            <h2>3. Which of the following is not a principle of Java script?</h2>
+            <input type="radio" name="quiz3">Inheritance<br>
+            <input type="radio" name="quiz3">Encapsulation<br>
+            <input type="radio" name="quiz3" id="correct3">Constructive<br>
+            <input type="radio" name="quiz3">Polimorphism
+            <h2>4. Which of the following is not a programming language</h2>
+            <input type="radio" name="quiz4">Python<br>
+            <input type="radio" name="quiz4">React<br>
+            <input type="radio" name="quiz4" correct4>Html<br>
+            <input type="radio" name="quiz4">C++<br>
+            <h2>5. Who invented javascript?</h2>
+            <input type="radio" name="quiz5" id="correct5">Brendan Eich<br>
+            <input type="radio" name="quiz5">Albert Einstain<br>
+            <input type="radio" name="quiz5">Guido van Rossum<br>
+            <input type="radio" name="quiz5">Isaac Newton<br>
 
-        </div>
-        <div class="list">
-            <ul>
-                <a href="/index.html"><li>Home</li></a>
-                 <a href="/asset/html_files/next1.html"><li>Quiz</li></a>
-                <a href="/asset/html_files/lastpage.html"> <li>Grades</li></a>
-             </ul>
+            <input type="submit" name="submit" Value="Submit answers" onclick="result()">
         </div>
     </div>
-    <div class="start">
-        <h1>Click here to start!
-            <br>
-             <i class="fa-solid fa-arrow-down"></i></h1>
-        <button id="startbtn"><a href="asset/html_files/page1.html"><p>Start Quiz</p></button></a>
-
-    </div>
-
-   </div>
-            
-<script src="/asset/js/main.js" type="text/javascript"></script> 
+    <script src="app.js" type="text/javascript"></script>
 </body>
-
 </html>
