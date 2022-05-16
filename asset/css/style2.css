@@ -4,7 +4,7 @@
 }
     /* section1 */
     body{
-        background-image: url("/asset/images/imagg2.jpg");
+        background-image: url("asset/images/imagg2.jpg");
         width: 1100px;
         height: auto;
         background-size: cover;
