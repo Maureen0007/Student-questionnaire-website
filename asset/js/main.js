@@ -21,8 +21,14 @@ function result(){
     {
         score=+5
     }
-       
+       document.write("Your score is:"+score);
         
     
     
 }
+// last page
+function result(){
+    var score= "total";
+    console.log("correct1"+"correct2");
+}
+alert
