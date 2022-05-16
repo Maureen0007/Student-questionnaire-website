@@ -1,5 +1,5 @@
 body{
-    background-image: url("/asset/images/imagg2.jpg");
+    background-image: url(asset/images/imagg2.jpg);
     width: 1100px;
     height: auto;
     background-size: cover;
@@ -54,7 +54,7 @@ li{
     margin-top: 50px;
 }
 .start h1{
-    color: white;
+    color: maroon;
     box-shadow: 2px 2px 4px black;
     height: 300px;
 }
