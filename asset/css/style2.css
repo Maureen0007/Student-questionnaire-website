@@ -51,6 +51,8 @@
       width: 90px;
       height: 30px;
       background-color: burlywood;
+      margin-left: 70px;
+      font-size: 20px;
 
     }
     #submit1{
@@ -59,11 +61,13 @@
         width: 90px;
         height: 30px;
         background-color: burlywood;
+        font-size: 20px;
     }
     #submit2{
         margin-left: 500px;
         width: 90px;
         height: 30px;
         background-color: burlywood;
+        font-size: 20px;
 
     }
