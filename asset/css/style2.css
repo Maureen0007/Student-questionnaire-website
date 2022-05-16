@@ -3,7 +3,7 @@
     
 }
 body{
-    background-image: url(asset/images/imagg3.jpg);
+    background-image: url(/asset/images/imagg1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
