@@ -23,6 +23,7 @@ body{
 
 }
 .form input{
+    
     background-color: rgb(123, 170, 170);
     font-size: 20px;
     width: 200px;
@@ -30,6 +31,7 @@ body{
     margin: 0 0 20px;
     padding: 30px;
     border-radius: 15px;
+    outline: 2;
 
 
 
