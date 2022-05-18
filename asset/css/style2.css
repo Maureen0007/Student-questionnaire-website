@@ -3,10 +3,14 @@
     font-family: playfair;
 }
 body{
-    background-image: url(/asset/images/imagg1.jpg);
+    background-color: blueviolet;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
     
 }
-   
+.result {
+    height: 30px;
+    width: 30px;
+    color: aqua;
+}   
