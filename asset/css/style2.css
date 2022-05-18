@@ -6,8 +6,25 @@ body{
     background-image: url(../images/imagg2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    color: white;
+    color: black;
     
+}
+#container-main{
+    background-color: rgb(95, 117, 146);
+    width: 1000px;
+    height: 800px;
+    margin-left: 10%;
+    border-radius: 40px;
+}
+.quiz{
+    margin-left: 80px;
+    margin-top: 40px;
+}
+#sbmtbtn{
+    margin-top: 50px;
+    background-color: #555;
+    width: 100px;
+    border-radius: 4px;
 }
 .result {
     height: 30px;
