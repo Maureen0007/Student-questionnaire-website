@@ -2,26 +2,27 @@ function result(){
     var score=0;
     if (document.getElementById('correct1').checked) 
     {
-        score=+5
+        score+=5
     }
     if (document.getElementById('correct2').checked) 
     {
-        score=+5
+        score+=5
     }
     if (document.getElementById('correct3').checked) 
     {
-        score=+5
+        score+=5
     }
        
     if (document.getElementById('correct4').checked) 
     {
-        score=+5
+        score+=5
     }
     if (document.getElementById('correct5').checked) 
     {
-        score=+5
+        score+=5
     }
-       alert("Your score is:"+score);
+    var final= score+=5
+       document.write("Your score is:"+final);
         
     
     
