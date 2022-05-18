@@ -1,34 +1,19 @@
 body{
-   background-color: violet;
+   background-color: blueviolet;
     width: 1100px;
     height: auto;
     background-size: cover;
     background-repeat: no-repeat;
 }
-#sidebar{
-    width: 40%;
-    height: 100%;
-    position: fixed;
-}
+
 li{
     font-size: 40px;
     border-bottom: 2px solid gray;
     padding: 30px;
     text-decoration: none;
     color: black;
+    text-align: center;
     
-
-}
-.tooglebtn{
-    position: absolute;
-    left: 90%;
-    margin-top: 80px;
-}
-.tooglebtn span{
-    width: 20px;
-    height: 6px;
-    display: block;
-    background-color: black;
 
 }
 #hmbtn{
@@ -45,30 +30,7 @@ li{
     width: 1250px;
 
 }
-.start{
-    width: 500px;
-    height: 500px;
-    margin-left: 700px;
+a{
     text-align: center;
-    font-size: 40px;
-    margin-top: 50px;
-}
-.start h1{
-    color: white;
-    box-shadow: 2px 2px 4px black;
-    height: 300px;
-}
-#startbtn{
-    margin: 60px;
-    height: 50px;
-    width: 120px;
-    background-color: black;
-    border-radius: 10px;
-}
-#startbtn p{
-    font-weight: 500;
-}
-i{
-    color: maroon;
 }
 

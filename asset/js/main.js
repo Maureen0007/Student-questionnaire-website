@@ -1,3 +1,4 @@
+var score=0;
 function result(){
    
     if (document.getElementById('correct1').checked) 
