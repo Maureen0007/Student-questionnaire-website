@@ -1,31 +1,30 @@
-var score=0;
+
 function result(){
-   
+   var score=0;
     if (document.getElementById('correct1').checked) 
     {
-        score+=5;
+        score++;
     }
     if (document.getElementById('correct2').checked) 
     {
-        score+=5;
+        score++;
     }
     if (document.getElementById('correct3').checked) 
     {
-        score+=5;
+        score++;
     }
        
     if (document.getElementById('correct4').checked) 
     {
-        score+=5;
+        score++;
     }
     if (document.getElementById('correct5').checked) 
     {
-        score+=5;
+        score++;
     }
     
-    var total = (score/25)*100
-       document.write("Your score is:"+total);
+    var total = (score*20)
+       document.write("Your score is:"+total+ "%");
         
-    
     
 }
